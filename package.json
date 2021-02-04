@@ -1,0 +1,32 @@
+{
+  "name": "ionic-decorators",
+  "version": "1.0.0",
+  "description": "Reusable decorators for ionic/angular pages",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnavb/ionic-decorators.git"
+  },
+  "keywords": [
+    "ionic",
+    "decorators",
+    "angular",
+    "utils",
+    "helper"
+  ],
+  "author": "Jorge Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnavb/ionic-decoratos/issues"
+  },
+  "homepage": "https://github.com/jnavb/ionic-decoratos#readme",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "devDependencies": {
+    "@ionic/angular": "^5.5.3",
+    "rxjs": "^6.6.3",
+    "typescript": "^4.1.3"
+  }
+}
