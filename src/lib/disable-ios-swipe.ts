@@ -12,11 +12,9 @@ export function DisableIosSwipe<T extends DisableIosSwipDependencies>(
 }
 
 function disableGesture<T extends DisableIosSwipDependencies>(this: T) {
-  console.log('disableGesture');
   this.routerOutlet.swipeGesture = false;
 }
 
 function enableGesture<T extends DisableIosSwipDependencies>(this: T) {
-  console.log('enableGesture');
   this.routerOutlet.swipeGesture = true;
 }

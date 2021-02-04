@@ -1,4 +1,3 @@
-import { AppModule } from 'src/app/app.module';
 
 type Hooks =
   | 'ngOnInit'
@@ -21,14 +20,4 @@ export const patchMethod = (
   };
 
   return target;
-};
-
-export const get = <T>(dependency: new (...args) => T) => {
-  try {
-    return AppModule.injector.get(dependency);
-  } catch {
-    throw new Error(
-      'Injector not found at App Module, read documentation for more detail'
-    );
-  }
 };
